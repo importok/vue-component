@@ -32,6 +32,11 @@ const ImportokWizard = {
             required: false,
             default: ImportOK.getDefaults().meta,
         },
+        locale: {
+            type: String,
+            required: false,
+            default: ImportOK.getDefaults().locale,
+        },
         onRecordReady: {
             type: Function,
             required: false,
