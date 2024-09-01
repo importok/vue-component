@@ -7,7 +7,7 @@
   "homepage": "https://importok.io/",
   "license": "https://importok.io/pricing.html",
   "peerDependencies": {
-    "@importok/javascript": "^0.14.0",
+    "@importok/javascript": "^0.15.0",
     "vue": "^3"
   },
   "dependencies": {
