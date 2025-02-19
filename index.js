@@ -14,13 +14,48 @@ const ImportokWizard = {
             default: ImportOK.getDefaults().subtitles,
         },
         fields: {
-            type: Array,
+            type: Object,
             required: true
+        },
+        transformers: {
+            type: Object,
+            required: false,
+            default: ImportOK.getDefaults().transformers,
+        },
+        validators: {
+            type: Object,
+            required: false,
+            default: ImportOK.getDefaults().validators,
+        },
+        providers: {
+            type: Object,
+            required: false,
+            default: ImportOK.getDefaults().providers,
+        },
+        mapper: {
+            type: Function,
+            required: false,
+            default: ImportOK.getDefaults().mapper,
+        },
+        locale: {
+            type: String,
+            required: false,
+            default: ImportOK.getDefaults().locale,
+        },
+        translations: {
+            type: Object,
+            required: false,
+            default: ImportOK.getDefaults().translations,
         },
         sampleFile: {
             type: String,
             required: false,
             default: ImportOK.getDefaults().sampleFile,
+        },
+        uploadedFile: {
+            type: File,
+            required: false,
+            default: ImportOK.getDefaults().uploadedFile,
         },
         throttle: {
             type: [Boolean, Number],
@@ -46,6 +81,26 @@ const ImportokWizard = {
             type: Function,
             required: false,
             default: ImportOK.getDefaults().onImportReady,
+        },
+        onImportProgress: {
+            type: Function,
+            required: false,
+            default: ImportOK.getDefaults().onImportProgress,
+        },
+        onStepEnter: {
+            type: Function,
+            required: false,
+            default: ImportOK.getDefaults().onStepEnter,
+        },
+        onStepExit: {
+            type: Function,
+            required: false,
+            default: ImportOK.getDefaults().onStepExit,
+        },
+        style: {
+            type: String,
+            required: false,
+            default: ImportOK.getDefaults().style,
         },
     },
 
