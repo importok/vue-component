@@ -1,6 +1,6 @@
 {
   "name": "@importok/vue",
-  "version": "1.7.3",
+  "version": "1.8.0",
   "description": "Vue component for importOK",
   "main": "index.js",
   "types": "index.d.ts",
