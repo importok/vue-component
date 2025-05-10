@@ -1,13 +1,13 @@
 {
   "name": "@importok/vue",
-  "version": "1.8.0",
+  "version": "2.0.0",
   "description": "Vue component for importOK",
   "main": "index.js",
   "types": "index.d.ts",
   "homepage": "https://importok.io/",
   "license": "https://importok.io/pricing.html",
   "peerDependencies": {
-    "@importok/javascript": "^1.0",
+    "@importok/javascript": "^2.0",
     "vue": "^3"
   },
   "dependencies": {
