@@ -102,6 +102,11 @@ const ImportokWizard = {
             required: false,
             default: ImportOK.getDefaults().style,
         },
+        editorMode: {
+            type: String,
+            required: false,
+            default: ImportOK.getDefaults().style.editorMode,
+        },
     },
 
     mounted() {
