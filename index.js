@@ -105,7 +105,7 @@ const ImportokWizard = {
         editorMode: {
             type: String,
             required: false,
-            default: ImportOK.getDefaults().style.editorMode,
+            default: ImportOK.getDefaults().editorMode,
         },
     },
 
