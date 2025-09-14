@@ -1,6 +1,6 @@
 {
   "name": "@importok/vue",
-  "version": "2.4.3",
+  "version": "2.4.4",
   "description": "Vue component for importOK",
   "main": "index.js",
   "types": "index.d.ts",
@@ -10,6 +10,5 @@
     "@importok/javascript": "^2.0",
     "vue": "^3"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
