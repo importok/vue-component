@@ -107,6 +107,11 @@ const ImportokWizard = {
             required: false,
             default: ImportOK.getDefaults().editorMode,
         },
+        license: {
+            type: String,
+            required: false,
+            default: ImportOK.getDefaults().license,
+        },
     },
 
     mounted() {
